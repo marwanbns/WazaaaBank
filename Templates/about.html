@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card shadow-lg p-4" style="max-width: 800px; width: 100%; border-radius: 10px;">
+        <h1 class="text-center mb-4">🏦 About Wazaa Bank</h1>
+        <p class="text-center text-muted">
+            Welcome to <strong>Wazaa Bank</strong>, where financial aspirations meet innovation! 🚀 <br><br>
+            At Wazaa Bank, we pride ourselves on redefining the banking experience, seamlessly blending cutting-edge technology with a commitment to personalized service. 💡<br><br>
+            Established with a vision to empower individuals and businesses alike, Wazaa Bank stands as a beacon of trust, reliability, and progress in the financial landscape. 💰<br><br>
+            Whether you're embarking on your first savings journey, planning for the future, or seeking advanced financial solutions, <strong>Wazaa Bank</strong> is your steadfast partner. 🔥<br><br>
+            Our dedicated team of experts is driven by a passion for excellence, ensuring that your financial goals become a reality. 🎯<br><br>
+            Join us on this exciting journey as we pave the way for a brighter and more prosperous future together. 🌍✨<br><br>
+            <strong>Welcome to Wazaa Bank - where your dreams take center stage!</strong>
+        </p>
+    </div>
+</div>
+
+<style>
+    body {
+        background: #f8f9fa; /* Fond léger */
+    }
+    .card {
+        border-radius: 10px;
+        background: white;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .card:hover {
+        transform: scale(1.02);
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    }
+    h1 {
+        font-weight: bold;
+        color: #007bff;
+    }
+    .text-muted {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+</style>
+
+{% endblock %}

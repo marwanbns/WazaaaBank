@@ -1,0 +1,115 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<style>
+  /* Conteneur principal */
+  .services-container {
+    margin-top: 40px;
+  }
+
+  /* Style des cartes */
+  .service-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    background: white;
+    transition: transform 0.3s ease-in-out;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+
+  /* Réduction de la taille des images pour tenir en 2x2 */
+  .service-card img {
+    width: 100%;
+    height: 220px; /* Ajustement pour que tout rentre */
+    object-fit: cover;
+    border-bottom: 3px solid #007bff;
+  }
+
+  .service-card-body {
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .service-card-body h2 {
+    font-size: 1.2rem; /* Légèrement réduit */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .service-card-body p {
+    color: #666;
+    font-size: 1rem; /* Taille plus compacte */
+    flex-grow: 1;
+  }
+</style>
+
+<div class="container text-center">
+  <h1 class="mt-4 mb-3">Welcome to Wazaa Bank</h1>
+  <p class="lead">Your Trusted Partner in Financial Solutions</p>
+</div>
+{% if message %}
+    <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
+        {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+{% endif %}
+
+
+
+<div class="container services-container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card service-card">
+        <img src="{{ url_for('static', filename='images/personal_banking.png') }}" alt="Personal Banking">
+        <div class="service-card-body">
+          <h2>Personal Banking</h2>
+          <p>Manage your personal finances with ease. Our user-friendly online banking system provides you with full control over your accounts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card service-card">
+        <img src="{{ url_for('static', filename='images/business_solutions.png') }}" alt="Business Solutions">
+        <div class="service-card-body">
+          <h2>Business Solutions</h2>
+          <p>Explore our tailored business banking services. From small businesses to corporations, we have the right solutions for your financial needs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-3">
+    <div class="col-md-6">
+      <div class="card service-card">
+        <img src="{{ url_for('static', filename='images/mortgage_services.png') }}" alt="Mortgage Services">
+        <div class="service-card-body">
+          <h2>Mortgage Services</h2>
+          <p>Turn your dream home into a reality with our competitive mortgage rates and personalized mortgage services.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card service-card">
+        <img src="{{ url_for('static', filename='images/investment_opportunities.png') }}" alt="Investment Opportunities">
+        <div class="service-card-body">
+          <h2>Investment Opportunities</h2>
+          <p>Grow your wealth with our diverse investment options. From stocks to mutual funds, we help you make informed investment decisions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

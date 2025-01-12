@@ -1,0 +1,111 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<style>
+  .register-container {
+    width: 400px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #23272b;
+  }
+
+  .login-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .flash-message {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .flash-success {
+    background-color: #28a745;
+    color: white;
+  }
+
+  .flash-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+</style>
+
+<div class="register-container">
+  {% with messages = get_flashed_messages(with_categories=True) %}
+    {% if messages %}
+      {% for category, message in messages %}
+        <div class="flash-message flash-{{ category }}">
+          {{ message }}
+        </div>
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
+
+  <form method="POST" action="">
+    {{ form.hidden_tag() }}
+      <div class="form-group">
+        {{ form.pseudo.label }}
+        {{ form.pseudo(class="form-control") }}
+    </div>
+    <div class="form-group">
+        {{ form.mot_de_passe.label }}
+        {{ form.mot_de_passe(class="form-control") }}
+    </div>
+    <div class="form-group">
+        {{ form.confirmer_mot_de_passe.label }}
+        {{ form.confirmer_mot_de_passe(class="form-control") }}
+    </div>
+    <div class="form-group">
+        {{ form.submit(type="submit", class="btn btn-dark btn-block") }}
+    </div>
+  </form>
+
+  <div class="login-link">
+    <small>Déjà un compte ? <a href="{{ url_for('login') }}">Connectez-vous</a></small>
+  </div>
+</div>
+
+{% endblock %}
