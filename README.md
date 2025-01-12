@@ -32,9 +32,9 @@ http://127.0.0.1:5000 or http://localhost:5000
 ### Developed by AtlasKing515, Edouard and Ali, Feel free to contribute! 🎉
 
 ## Screenshots
-![Home Page Screenshot](images/ScreenHome.png)
-![About Page Screenshot](images/ScreenAbout.png)
-![Contact Page Screenshot](images/ScrenContact.png)
-![Admin Page Screenshot](images/ScreenAdminPage.png)
-![Account Page Screenshot](images/ScrenAccount.png)
-![Login Page Screenshot](images/ScreenLogin.png)
+![Home Page Screenshot](images/ScreenHome.PNG)
+![About Page Screenshot](images/ScreenAbout.PNG)
+![Contact Page Screenshot](images/ScreenContact.PNG)
+![Admin Page Screenshot](images/ScreenAdminPage.PNG)
+![Account Page Screenshot](images/ScreenAccount.PNG)
+![Login Page Screenshot](images/ScreenLogin.PNG)
