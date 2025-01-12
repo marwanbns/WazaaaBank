@@ -102,9 +102,6 @@ def delete_account():
     return redirect(url_for('admin'))  # Rester sur la page admin
 
 @app.route("/")
-def index():
-    return redirect(url_for('home'))
-
 @app.route("/home")
 def home():
     message = session.pop('message', None)  # Récupère et supprime le message de session
