@@ -29,7 +29,7 @@ python flaskblog.py
 3️⃣ **Access the website**:
 http://127.0.0.1:5000 or http://localhost:5000
 
-### Developed by AtlasKing515, Edouard and Ali, Feel free to contribute! 🎉
+### Developed by Marwanbns, Edouard and Ali, Feel free to contribute! 🎉
 
 ## Screenshots
 ![Home Page Screenshot](images/ScreenHome.PNG)
@@ -38,3 +38,4 @@ http://127.0.0.1:5000 or http://localhost:5000
 ![Admin Page Screenshot](images/ScreenAdminPage.PNG)
 ![Account Page Screenshot](images/ScreenAccount.PNG)
 ![Login Page Screenshot](images/ScreenLogin.PNG)
+
