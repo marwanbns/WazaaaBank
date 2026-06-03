@@ -1,0 +1,104 @@
+[
+    {
+        "pseudo": "admin",
+        "password": "admin",
+        "account_number": "12345",
+        "profile_image": "admin.jpg"
+    },
+    {
+        "pseudo": "test",
+        "password": "test",
+        "account_number": "00000",
+        "profile_image": "test.jpg"
+    },
+    {
+        "pseudo": "marwan",
+        "password": "marwan",
+        "account_number": "24040",
+        "profile_image": "marwan.jpg"
+    },
+    {
+        "pseudo": "edouard",
+        "password": "edouard",
+        "account_number": "06090",
+        "profile_image": "edouard.jpg"
+    },
+    {
+        "pseudo": "ali",
+        "password": "ali",
+        "account_number": "12040",
+        "profile_image": "ali.jpg"
+    },
+    {
+        "pseudo": "test1",
+        "password": "test1",
+        "account_number": "11111",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "test2",
+        "password": "test2",
+        "account_number": "22222",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "james",
+        "password": "blonde",
+        "account_number": "73944",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "dabobo",
+        "password": "dabobi",
+        "account_number": "47450",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "test45",
+        "password": "test45",
+        "account_number": "51829",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "Atlasss",
+        "password": "Test123",
+        "account_number": "33230",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "ahhh",
+        "password": "ahhh",
+        "account_number": "54357",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "fhh",
+        "password": "fhh",
+        "account_number": "93206",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "newuser",
+        "password": "$2b$12$em0F9ruHX81n2UeduGdWtO.GEzu8kCAbhdIpMTEU2K.zT8LS9BIkO",
+        "account_number": "1000000013",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "testuser",
+        "password": "$2b$12$pJuYp8aMhUb4MkXM/gjVs.UVFnKoF0s/dRpAB8WlLPlXvXCih/5E6",
+        "account_number": "1000000014",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "oooo",
+        "password": "$2b$12$ZvsmN.DeaeBp5ADrKI3UFussN1eXl6IKlNl/1XRK837QdXNt4dI16",
+        "account_number": "1000000015",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "ko",
+        "password": "$2b$12$l68KSohzZX5w0aCbEW82Auatrw8LBO40zxzRMMkMJG0JyTTKr00jG",
+        "account_number": "1000000016",
+        "profile_image": "default.jpg"
+    }
+]
