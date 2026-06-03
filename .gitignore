@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+bower_components/
+.jspm_packages/
+jspm_packages/
+
+# Environnement
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build
+dist/
+build/
+.out/
+.next/
+
+# Cache
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml~
+.dockerignore
+
+# Gitlab
+.gitlab-ci.yml
+
+# Tests
+coverage/
+
+# Spécifique à React
+.eslintcache
