@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Application bancaire moderne">
+    
+    <!-- Favicon pour tous les appareils -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <title>Bank App</title>
+
+    <!-- Préchargement des polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Styles de base -->
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+        
+        #root {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <noscript>
+        <div style="text-align: center; padding: 2rem; color: #dc3545;">
+            <h1>JavaScript est désactivé 😞</h1>
+            <p>Cette application nécessite JavaScript pour fonctionner correctement.</p>
+        </div>
+    </noscript>
+    
+    <!-- Point de montage React -->
+    <div id="root"></div>
+    
+    <!-- Point de montage Angular (alternative) -->
+    <!-- <app-root></app-root> -->
+</body>
+</html>

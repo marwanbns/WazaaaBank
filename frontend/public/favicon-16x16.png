@@ -1,0 +1,1 @@
+echo "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR4AewaftIAAACvSURBVDjBzZRBCsAgDATtov//y16KUKqFWdhDkocxAsY+OVNVzMyBc7Z/ogWvwgAAAABJRU5ErkJggg==" | base64 -d > frontend/public/favicon-32x32.png
