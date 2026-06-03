@@ -1,0 +1,79 @@
+
+
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    networks:
+      - frontend-net
+
+  auth-service:
+    build: ./auth-service
+    ports:
+      - "5000:5000"
+    environment:
+      - DATABASE_URL=postgresql://auth_user:auth_password@auth-db/auth_db
+    depends_on:
+      - auth-db
+    networks:
+      - auth-net
+
+  bank-service:
+    build: ./bank-service
+    ports:
+      - "5001:5001"
+    environment:
+      - DATABASE_URL=postgresql://bank_user:bank_password@bank-db/bank_db
+    depends_on:
+      - bank-db
+    networks:
+      - bank-net
+
+  auth-db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: auth_user
+      POSTGRES_PASSWORD: auth_password
+      POSTGRES_DB: auth_db
+    volumes:
+      - auth_data:/var/lib/postgresql/data
+      - ./auth-service/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - auth-net
+
+  bank-db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: bank_user
+      POSTGRES_PASSWORD: bank_password
+      POSTGRES_DB: bank_db
+    volumes:
+      - bank_data:/var/lib/postgresql/data
+      - ./bank-service/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - bank-net
+
+  proxy:
+    build: ./proxy
+    ports:
+      - "80:80"
+    depends_on:
+      - frontend
+      - auth-service
+      - bank-service
+    networks:
+      - frontend-net
+      - auth-net
+      - bank-net
+
+volumes:
+  auth_data:
+  bank_data:
+
+networks:
+  frontend-net:
+  auth-net:
+  bank-net:
