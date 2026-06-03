@@ -1,0 +1,98 @@
+[
+    {
+        "pseudo": "admin",
+        "password": "$2b$12$B87nFrafXuipsKez0HzRH.1Z1p.CkE7ccZBU0XvHv5t66/GLxGZ7G",
+        "account_number": "12345",
+        "profile_image": "admin.jpg"
+    },
+    {
+        "pseudo": "test",
+        "password": "$2b$12$knQ1lXqDP.Qfm1z0DkYlMOrugtHn0ajGW/4PzAHsl4KdGPsM7QZj.",
+        "account_number": "00000",
+        "profile_image": "test.jpg"
+    },
+    {
+        "pseudo": "marwan",
+        "password": "$2b$12$VXd7CDUbgvL/FnWqo4.NfuUMBJzaiAoZs/ZYJFt7DUogSG86L4Y72",
+        "account_number": "24040",
+        "profile_image": "marwan.jpg"
+    },
+    {
+        "pseudo": "edouard",
+        "password": "$2b$12$AH.NkJJiAFotg94BI2CQIObJ0XkSvk62bQ9LLkNeGbHvXproC1Iya",
+        "account_number": "06090",
+        "profile_image": "edouard.jpg"
+    },
+    {
+        "pseudo": "ali",
+        "password": "$2b$12$aMIKRLM8hxZTfSR8V5HIWOdKZOGLN6koTQ3DSsUIkO9ro53wGcIjW",
+        "account_number": "12040",
+        "profile_image": "ali.jpg"
+    },
+    {
+        "pseudo": "test1",
+        "password": "$2b$12$MrX0XuJFDHdznhOQt5xWnee20YIrqJ81fSjgwZlv6zC/GcFeE6lU2",
+        "account_number": "11111",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "test2",
+        "password": "$2b$12$4YjZi4/IooBOmMlhzIUO4exuJrGlZUB3nl52rgQRxXpVRnvt6gLbK",
+        "account_number": "22222",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "james",
+        "password": "$2b$12$Y41CHQLiZVB3F8v3e/75M.1obTIMI1kqZ5uDzqTkE8EFU.U4YFqJ.",
+        "account_number": "73944",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "dabobo",
+        "password": "$2b$12$9hhGqEZ3nQE4YXNMN6ZDu.NcZ.N73TnRLp/KeQ0nmrKM8Qdy3ZelC",
+        "account_number": "47450",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "test45",
+        "password": "$2b$12$sclXvl89xjfP8RcI4ht0GOA5DAmd5j90P.SyiWCwENPx9dMOa0zwO",
+        "account_number": "51829",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "Atlasss",
+        "password": "$2b$12$GopTMdgXL9YGI82TnP946OV8CEgkomd3cOhUAsZ/aEtIjLQqJqei2",
+        "account_number": "33230",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "ahhh",
+        "password": "$2b$12$kvsC/M9VjT411251PB7JQuM/wq.LjnRxgM3i36ZlLEKYsO1TbcgQm",
+        "account_number": "54357",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "fhh",
+        "password": "$2b$12$JuyXvns1Y1csHAEN7CXZHuqYcKjVJbWFIMxeix4/Dti494BwOZRxO",
+        "account_number": "93206",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "newuser",
+        "password": "$2b$12$em0F9ruHX81n2UeduGdWtO.GEzu8kCAbhdIpMTEU2K.zT8LS9BIkO",
+        "account_number": "1000000013",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "testuser",
+        "password": "$2b$12$pJuYp8aMhUb4MkXM/gjVs.UVFnKoF0s/dRpAB8WlLPlXvXCih/5E6",
+        "account_number": "1000000014",
+        "profile_image": "default.jpg"
+    },
+    {
+        "pseudo": "wwww",
+        "password": "$2b$12$QvYCLPGVGYlzbOekuxaHLeDMOV0YDKUuS0rrCnCIlAmraf2NrMa42",
+        "account_number": "1000000015",
+        "profile_image": "default.jpg"
+    }
+]

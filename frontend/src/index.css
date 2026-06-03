@@ -1,0 +1,218 @@
+
+  /* Fond général */
+body {
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Logo */
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    background: linear-gradient(135deg, #007bff, #004085);
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .logo-container:hover {
+    transform: scale(1.03);
+  }
+  
+  .logo-container img {
+    width: 140px;
+  }
+  
+  /* Conteneur principal */
+  .content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Pied de page */
+  .footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+  
+  body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 1rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  .logo {
+    margin-top: 1px;
+  }
+  
+  .bg-steel {
+    background-color: #5f788a;
+  }
+  
+  .site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+  .alert-danger {
+    color: #721c24; 
+    background-color: #f8d7da; 
+    border-color: #f5c6cb; 
+  }
+  
+  .alert-warning {
+    color: #856404; 
+    background-color: #fff3cd; 
+    border-color: #ffeeba; 
+  }
+  /* main.css */
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }  
+
+  /* Style Navbar */
+.navbar {
+    background: linear-gradient(90deg, #001f3f, #004e92);
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700 !important;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    padding: 5px 10px;
+}
+
+.btn-danger:hover {
+    background-color: #bb2d3b;
+}
+
+
+/* Carte utilisateur */
+.user-card {
+    background: #ffffff;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    padding: 15px;
+}
+.user-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.profile-picture {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+}
+.balance {
+    font-size: 16px;
+    font-weight: bold;
+    color: #28a745;
+}
+.admin-buttons .btn {
+    font-size: 14px;
+    padding: 10px 15px;
+}
