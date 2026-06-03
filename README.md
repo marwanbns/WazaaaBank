@@ -278,6 +278,17 @@ Développé par :
 
 ---
 
+# Screenshots
+
+![Home Page Screenshot](images/ScreenHome.PNG)
+![About Page Screenshot](images/ScreenAbout.PNG)
+![Contact Page Screenshot](images/ScreenContact.PNG)
+![Admin Page Screenshot](images/ScreenAdminPage.PNG)
+![Account Page Screenshot](images/ScreenAccount.PNG)
+![Login Page Screenshot](images/ScreenLogin.PNG)
+
+---
+
 # 📄 Licence
 
 Ce projet est distribué sous licence MIT.
